@@ -7,6 +7,7 @@
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="ex1.css">
 
+
     <title>Estrutura Básica de Site</title>
 
 </head>
@@ -25,15 +26,23 @@
         <li class="nav-item m-2"><a class="nav-link " href="contato.html">Contato</a></li>
     </ul>
 </nav>
-
+<!-- Id é -->
 <!-- Container com metade texto e metade imagem -->
 <div class=" essa d-flex flex-row mb-3 align-items-center ">
+<!-- Esse usar na h1 se    id="titulo" onmouseover="testTexto()" onmouseup="reset()" onmousedown="testcolor()"-->
     <div class="text  justify-content-center w-100 d-flex flex-column align-content-center fs-5 ">
-        <h1>Bem-vindo a Nossa Loja</h1>
+        <h1 >Bem-vindo a Nossa Loja! </h1>
         <p>Tanto em nosso site quanto em nossa loja física, você encontrará uma ampla variedade de doces
             com preços incríveis, oferecendo uma das melhores seleções da região. Venha conferir as ofertas
             que você não vai encontrar em nenhum outro lugar! Esperamos por você!</p>
+        <from>
+            <label>
+                Label
+                <input id="input" onmouseover="testInput">
+            </label>
+        </from>
     </div>
+
     <div class="image w-100  ">
         <img src="/exercicios/img_3.png" alt="Exemplo de imagem" width="100%" height="70%"  >
     </div>
@@ -65,8 +74,11 @@
 <footer class="essa">
     <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
 </footer>
+<script src="exemplo.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+
 </body>
 </html>
